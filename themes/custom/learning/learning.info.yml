@@ -1,0 +1,10 @@
+name: 'My Custom Theme'
+type: theme
+description: 'A custom theme for my Drupal site.'
+core_version_requirement: ^8 || ^9 || ^10
+package: Custom
+version: VERSION
+base theme: false
+
+libraries:
+  - learning/global-styling

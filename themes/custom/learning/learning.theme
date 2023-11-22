@@ -1,0 +1,12 @@
+<?php
+
+// my_custom_theme.theme
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_preprocess_HOOK() for block templates.
+ */
+function my_custom_theme_preprocess_block(&$variables) {
+  // Add custom preprocessing logic here.
+}
